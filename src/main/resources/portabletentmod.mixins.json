@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.davidlitestudio.portabletent.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ExplosionMixin",
+    "PistonHandlerMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

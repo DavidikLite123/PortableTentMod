@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "portabletentmod",
+  "name": "Portable Tent Mod",
+  "version": "${version}",
+  "description": "A mod that adds a portable tent, allowing players to deploy a camping structure on the go. Created by David Lite Studio.",
+  "authors": [
+    "David Lite Studio"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.davidlitestudio.portabletent.PortableTentMod"
+    ],
+    "client": [
+      "ru.davidlitestudio.portabletent.client.PortableTentClient"
+    ]
+  },
+  "mixins": [
+    "portabletentmod.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.16.5",
+    "fabricloader": ">=0.14.0"
+  }
+}
